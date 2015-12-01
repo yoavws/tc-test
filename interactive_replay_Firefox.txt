@@ -1,0 +1,69 @@
+Virtual User Script started at : 2015-12-01 10:53:15
+Starting action Init.
+TruClient Replay for LoadRunner 12.51.0, build 0623. OS: Windows 2012 R2, Browser: Firefox, initialized on 2015/12/01 at 10:53:13 (0000.000s)
+Ending action Init.
+Running Vuser...
+Starting iteration 1.
+Starting action navigating.
+Notify: Transaction "navigating" started.
+t=00004102ms: ** 1: Navigate to "http://google.com/" ** started    [MsgId: MMSG-205180]
+t=00006221ms: ** 1: Navigate to http://google.com/ ** successfully completed with end event 'DOM Content Loaded'    [MsgId: MMSG-205180]
+t=00006482ms: ** 3: search (1) ** started    [MsgId: MMSG-205180]
+t=00007236ms: ** 3.1: Click on ????? combobox ** started    [MsgId: MMSG-205180]
+t=00007835ms: ** 3.1: Click on ????? combobox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00008360ms: ** 3.2: Type tomatocart in ????? combobox ** started    [MsgId: MMSG-205180]
+t=00012238ms: ** 3.2: Type tomatocart in ????? combobox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00012755ms: ** 3.3: Press Enter key on ????? combobox ** started    [MsgId: MMSG-205180]
+t=00013329ms: ** 3.3: Press Enter key on ????? combobox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00013363ms: ** 3: search (1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00013936ms: ** 5: Click on Store Demo link ** started    [MsgId: MMSG-205180]
+t=00017212ms: ** 5: Click on Store Demo link ** successfully completed with end event 'DOM Content Loaded'    [MsgId: MMSG-205180]
+t=00017773ms: ** 6: Click on Administration Panel image ** started    [MsgId: MMSG-205180]
+t=00019269ms: ** 6: Click on Administration Panel image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00019793ms: ** 7: Activate tab  #2 ** started    [MsgId: MMSG-205180]
+t=00020074ms: ** 7: Activate tab  #2 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00020700ms: ** 8: Close active tab ** started    [MsgId: MMSG-205180]
+t=00020975ms: ** 8: Close active tab ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00021504ms: ** 9: Activate tab  #1 ** started    [MsgId: MMSG-205180]
+t=00021893ms: ** 9: Activate tab  #1 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00022440ms: ** 10: Click on Administration Panel image ** started    [MsgId: MMSG-205180]
+t=00024402ms: ** 10: Click on Administration Panel image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00024934ms: ** 11: Activate tab  #2 ** started    [MsgId: MMSG-205180]
+t=00025242ms: ** 11: Activate tab  #2 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00025761ms: ** 12: Close active tab ** started    [MsgId: MMSG-205180]
+t=00026133ms: ** 12: Close active tab ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00026684ms: ** 13: Activate tab  #1 ** started    [MsgId: MMSG-205180]
+t=00027046ms: ** 13: Activate tab  #1 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00027564ms: ** 14: Click on Store Front On Pad image ** started    [MsgId: MMSG-205180]
+t=00030730ms: ** 14: Click on Store Front On Pad image ** successfully completed with end event 'DOM Content Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "navigating" ended with a "Pass" status (Duration: 26.6690 Think Time: 0.0200 Wasted Time: 9.5200).
+Ending action navigating.
+Starting action Action.
+Notify: Transaction "ZAP" started.
+t=00031600ms: ** 1: Navigate to "http://zap.co.il/" ** started    [MsgId: MMSG-205180]
+t=00032543ms: ** 1: Navigate to http://zap.co.il/ ** successfully completed with end event 'DOM Content Loaded'    [MsgId: MMSG-205180]
+t=00033054ms: ** 3: Type galaxy tab s2 in ??? ???? ????? textbox ** started    [MsgId: MMSG-205180]
+t=00037496ms: ** 3: Type galaxy tab s2 in ??? ???? ????? textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00038022ms: ** 4: Press Enter key on ??? ???? ????? textbox ** started    [MsgId: MMSG-205180]
+t=00040248ms: ** 4: Press Enter key on ??? ???? ????? textbox ** successfully completed with end event 'DOM Content Loaded'    [MsgId: MMSG-205180]
+t=00040714ms: ** 5: Click on Samsung Galaxy Tab S2... link ** started    [MsgId: MMSG-205180]
+t=00050657ms: ** 5: Click on Samsung Galaxy Tab S2... link ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00051094ms: ** 6: Click on ?????? link ** started    [MsgId: MMSG-205180]
+t=00060195ms: ** 6: Click on ?????? link ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "ZAP" ended with a "Pass" status (Duration: 28.6350 Wasted Time: 2.9690).
+Notify: Transaction "store1" started.
+t=00060838ms: ** 7: Activate tab  #2 ** started    [MsgId: MMSG-205180]
+t=00061111ms: ** 7: Activate tab  #2 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00061625ms: ** 8: Click on Exit  ** started    [MsgId: MMSG-205180]
+t=00062421ms: ** 8: Click on Exit  ** successfully completed with end event 'undefined'    [MsgId: MMSG-205180]
+t=00062936ms: ** 9: Click on ??? ????? link ** started    [MsgId: MMSG-205180]
+t=00072961ms: ** 9: Click on ??? ????? link ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00073498ms: ** 10: Click on PopCloseBox image ** started    [MsgId: MMSG-205180]
+t=00083258ms: ** 10: Click on PopCloseBox image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "store1" ended with a "Pass" status (Duration: 22.5720 Wasted Time: 2.3350).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action End.
+Ending action End.
+Vuser Terminated.

@@ -1,0 +1,62 @@
+Virtual User Script started at : 2015-12-01 10:21:07
+t=00003019ms: Error -205177: SendSync Exception: Failed to evaluate request       Snapshot Info [MSH undefined 0]    [MsgId: MERR-205177]
+Starting action Init.
+TruClient Replay for LoadRunner 12.51.0, build 0623. OS: Windows 2012 R2, Browser: Chromium, initialized on 2015/12/01 at 10:21:05 (0000.000s)
+Ending action Init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00009806ms: ** 1: Navigate to "http://google.com/" ** started    [MsgId: MMSG-205180]
+t=00012403ms: ** 1: Navigate to http://google.com/ ** successfully completed with end event 'DOM Content Loaded'    [MsgId: MMSG-205180]
+t=00012477ms: ** 3: search (1) ** started    [MsgId: MMSG-205180]
+t=00012987ms: ** 3.1: Click on ????? combobox ** started    [MsgId: MMSG-205180]
+t=00013791ms: ** 3.1: Click on ????? combobox ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00014309ms: ** 3.2: Type tomatocart in ????? combobox ** started    [MsgId: MMSG-205180]
+t=00018382ms: ** 3.2: Type tomatocart in ????? combobox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00018896ms: ** 3.3: Press Enter key on ????? combobox ** started    [MsgId: MMSG-205180]
+t=00020362ms: ** 3.3: Press Enter key on ????? combobox ** successfully completed with end event 'Step network completed'    [MsgId: MMSG-205180]
+t=00020417ms: ** 3: search (1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00020912ms: ** 5: Click on Store Demo link ** started    [MsgId: MMSG-205180]
+t=00025248ms: ** 5: Click on Store Demo link ** successfully completed with end event 'DOM Content Loaded'    [MsgId: MMSG-205180]
+t=00025746ms: ** 6: Click on Administration Panel image ** started    [MsgId: MMSG-205180]
+t=00027078ms: ** 6: Click on Administration Panel image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00027560ms: ** 7: Activate tab  #2 ** started    [MsgId: MMSG-205180]
+t=00028467ms: ** 7: Activate tab  #2 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00028985ms: ** 8: Close active tab ** started    [MsgId: MMSG-205180]
+t=00030017ms: ** 8: Close active tab ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00030535ms: ** 9: Activate tab  #1 ** started    [MsgId: MMSG-205180]
+t=00031164ms: ** 9: Activate tab  #1 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00031682ms: ** 10: Click on Administration Panel image ** started    [MsgId: MMSG-205180]
+t=00034380ms: ** 10: Click on Administration Panel image ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00034898ms: ** 11: Activate tab  #2 ** started    [MsgId: MMSG-205180]
+t=00035751ms: ** 11: Activate tab  #2 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00036270ms: ** 12: Close active tab ** started    [MsgId: MMSG-205180]
+t=00037345ms: ** 12: Close active tab ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00037859ms: ** 13: Activate tab  #1 ** started    [MsgId: MMSG-205180]
+t=00038646ms: ** 13: Activate tab  #1 ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00039167ms: ** 14: Click on Store Front On Pad image ** started    [MsgId: MMSG-205180]
+t=00040698ms: ** 14: Click on Store Front On Pad image ** successfully completed with end event 'DOM Content Loaded'    [MsgId: MMSG-205180]
+t=00041202ms: ** 15: Navigate to "http://zap.co.il/" ** started    [MsgId: MMSG-205180]
+t=00045686ms: ** 15: Navigate to http://zap.co.il/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00046219ms: ** 17: Type galaxy tab s2 in ??? ???? ????? textbox ** started    [MsgId: MMSG-205180]
+t=00051868ms: ** 17: Type galaxy tab s2 in ??? ???? ????? textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00052386ms: ** 18: Press Enter key on ??? ???? ????? textbox ** started    [MsgId: MMSG-205180]
+t=00056242ms: ** 18: Press Enter key on ??? ???? ????? textbox ** successfully completed with end event 'DOM Content Loaded'    [MsgId: MMSG-205180]
+t=00056753ms: ** 19: Click on Samsung Galaxy Tab S2... link ** started    [MsgId: MMSG-205180]
+t=00058022ms: ** 19: Click on Samsung Galaxy Tab S2... link ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00058564ms: ** 20: Click on ?????? link ** started    [MsgId: MMSG-205180]
+t=00066024ms: ** 20: Click on ?????? link ** successfully completed with end event 'Step network completed'    [MsgId: MMSG-205180]
+t=00066572ms: ** 21: Activate tab  #2 ** started    [MsgId: MMSG-205180]
+t=00071040ms: ** 21: Activate tab  #2 ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00071555ms: ** 22: Click on Exit  ** started    [MsgId: MMSG-205180]
+t=00072552ms: ** 22: Click on Exit  ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00073056ms: ** 23: Click on ??? ????? link ** started    [MsgId: MMSG-205180]
+t=00080965ms: ** 23: Click on ??? ????? link ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00081484ms: ** 24: Click on PopCloseBox image ** started    [MsgId: MMSG-205180]
+t=00092391ms: ** 24: Click on PopCloseBox image ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action End.
+Ending action End.
+Vuser Terminated.
